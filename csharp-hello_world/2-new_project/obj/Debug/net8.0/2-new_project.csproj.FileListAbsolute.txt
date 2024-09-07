@@ -1,0 +1,15 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\bin\Debug\net8.0\2-new_project.exe
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\bin\Debug\net8.0\2-new_project.deps.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\bin\Debug\net8.0\2-new_project.runtimeconfig.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\bin\Debug\net8.0\2-new_project.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\bin\Debug\net8.0\2-new_project.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.sourcelink.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\refint\2-new_project.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\2-new_project.genruntimeconfig.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-hello_world\2-new_project\obj\Debug\net8.0\ref\2-new_project.dll
