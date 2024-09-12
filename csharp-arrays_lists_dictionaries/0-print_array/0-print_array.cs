@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 
 class Array
 {
@@ -6,13 +6,13 @@ class Array
     {
         if (size < 0) {
             Console.WriteLine("Size cannot be negative");
-            return new int[0];
+            return null;
         } else if (size == 0){
             Console.WriteLine();
-            return new int[0];
+            return new int [0];
         } else {
             int[] myArray = new int[size];
-            for (int i = 0; i < size; i++) {
+            for (int i = 0; i<size; i++) {
                 myArray[i] = i;
                 if (i == size - 1) {
                     Console.Write(myArray[i]);
@@ -23,11 +23,5 @@ class Array
             Console.WriteLine();
             return myArray;
         }
-    }
-
-    static void Main(string[] args)
-    {
-       
-        CreatePrint(7);
     }
 }

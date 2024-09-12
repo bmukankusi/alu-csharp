@@ -1,34 +1,23 @@
-﻿﻿﻿﻿using System;
+﻿﻿﻿using System;
 
-class Array 
+class List
 {
-    public static void Reverse(int[]? array)
+    public static int MaxInteger(List<int> myList)
     {
-        if (array == null || array.Length == 0) 
+        if (myList.Count == 0)
         {
-            Console.WriteLine();
-            return;
+            Console.WriteLine("List is empty");
+            return -1;
         }
-        int [] reverseArray = new int[array.Length];
-        int index = 0;
-        for(int i = array.Length - 1; i>=0; i--)
+        int Max = myList[0];
+        foreach(int num in myList) 
         {
-            reverseArray[index] = array[i];
-            index++;
-        }
-        for (int j = 0; j<reverseArray.Length; j++) 
-        {
-            if (j == reverseArray.Length - 1){
-                Console.Write(reverseArray[j] + "\n");
+            if (num > Max) {
+                Max = num;
             }else {
-                Console.Write(reverseArray[j] + " ");
+                continue;
             }
         }
-    }
-
-    static void Main(string[] args)
-    {
-        int[] array = {1, 2, 3, 4, 5, 6, 7};
-        Reverse(array);
+        return Max;
     }
 }
