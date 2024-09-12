@@ -1,0 +1,5 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\5-max_integer\obj\Debug\net8.0\5-max_integer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\5-max_integer\obj\Debug\net8.0\5-max_integer.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\5-max_integer\obj\Debug\net8.0\5-max_integer.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\5-max_integer\obj\Debug\net8.0\5-max_integer.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\5-max_integer\obj\Debug\net8.0\5-max_integer.sourcelink.json

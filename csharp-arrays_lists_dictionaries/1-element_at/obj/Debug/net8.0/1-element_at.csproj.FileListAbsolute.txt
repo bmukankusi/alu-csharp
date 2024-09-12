@@ -1,0 +1,5 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net8.0\1-element_at.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net8.0\1-element_at.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net8.0\1-element_at.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net8.0\1-element_at.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net8.0\1-element_at.sourcelink.json
