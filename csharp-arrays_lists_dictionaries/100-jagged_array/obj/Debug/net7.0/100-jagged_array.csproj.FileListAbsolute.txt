@@ -1,0 +1,15 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\bin\Debug\net7.0\100-jagged_array.exe
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\bin\Debug\net7.0\100-jagged_array.deps.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\bin\Debug\net7.0\100-jagged_array.runtimeconfig.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\bin\Debug\net7.0\100-jagged_array.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\bin\Debug\net7.0\100-jagged_array.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.sourcelink.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\refint\100-jagged_array.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\100-jagged_array.genruntimeconfig.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-arrays_lists_dictionaries\100-jagged_array\obj\Debug\net7.0\ref\100-jagged_array.dll
