@@ -1,34 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿﻿using System.Collections.ObjectModel;
 
 class Dictionary
 {
     public static Dictionary<string, int> MultiplyBy2(Dictionary<string, int> myDict)
     {
-        Dictionary<string, int> newDict = new Dictionary<string, int>();
-
-        foreach (var kvp in myDict)
+        Dictionary<string, int>.KeyCollection keys = myDict.Keys;
+        Dictionary<string, int> myNewDict = new Dictionary<string, int>();
+        foreach(string key in keys)
         {
-            newDict[kvp.Key] = kvp.Value * 2;
+            myNewDict.Add(key, myDict[key]*2);
         }
-
-        return newDict;
-    }
-
-    static void Main(string[] args)
-    {
-        Dictionary<string, int> myDict = new Dictionary<string, int>
-        {
-            { "a", 1 },
-            { "b", 2 },
-            { "c", 3 }
-        };
-
-        Dictionary<string, int> resultDict = MultiplyBy2(myDict);
-
-        foreach (var kvp in resultDict)
-        {
-            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
-        }
+        return myNewDict;
     }
 }

@@ -1,41 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-
-class Dictionary
+﻿﻿class Dictionary
 {
-    public static string BestScore(Dictionary<string, int> myList)
+    public static string BestScore(Dictionary<string, int> myDict)
     {
-        if (myList.Count == 0)
+        string bestScore = "";
+        int best = 0;
+        if (myDict.Count == 0)
         {
-            return "None";
+            bestScore = "None";
+            return bestScore;
         }
-
-        string? bestKey = null;
-        int highestScore = -1;
-
-        foreach (var kvp in myList)
+        foreach(KeyValuePair<string,int> kvp in myDict)
         {
-            if (kvp.Value > highestScore)
+            if (kvp.Value >= best)
             {
-                highestScore = kvp.Value;
-                bestKey = kvp.Key;
+                bestScore = kvp.Key;
+                best = kvp.Value;
+            }else {
+                continue;
             }
         }
-
-        return bestKey ?? "None";
-    }
-
-    static void Main(string[] args)
-    {
-        Dictionary<string, int> myList = new Dictionary<string, int>
-        {
-            { "Clover", 90 },
-            { "Alex", 85 },
-            { "Betty", 95 },
-            { "Candice", 80 }
-        };
-
-        string bestStudent = BestScore(myList);
-        Console.WriteLine("Best score: " + bestStudent);
+        return bestScore;
     }
 }

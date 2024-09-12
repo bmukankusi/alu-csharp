@@ -1,28 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿﻿using System;
 
 class Dictionary
 {
     public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        int keyCount = 0;
-        foreach (var key in myDict.Keys)
+        int counter = 0;
+        Dictionary<string,string>.KeyCollection keys = myDict.Keys;
+        foreach(string key in keys)
         {
-            keyCount++;
+            counter++;
         }
-        return keyCount;
-    }
-
-    static void Main(string[] args)
-    {
-        Dictionary<string, string> myDict = new Dictionary<string, string>
-        {
-            { "key1", "value1" },
-            { "key2", "value2" },
-            { "key3", "value3" }
-        };
-
-        int numberOfKeys = NumberOfKeys(myDict);
-        Console.WriteLine("Number of keys: " + numberOfKeys);
+        return counter;
+        
     }
 }

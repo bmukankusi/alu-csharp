@@ -1,35 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
+﻿﻿using System;
 
-class Program
+class List
 {
     public static List<int> CreatePrint(int size)
     {
         if (size < 0) {
             Console.WriteLine("Size cannot be negative");
-            return new List<int>(); 
+            return null;
         }
         if (size == 0) {
             Console.WriteLine();    
         }
         List<int> list = new List<int>(size);
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i<size; i++)
         {
             list.Add(i);
         }
-        for (int j = 0; j < size; j++) {
-            if (j == size - 1) {
+        for(int j=0; j<size; j++) {
+            if (j ==  size - 1) {
                 Console.Write(list[j] + "\n");
-            } else {
+            }else {
                 Console.Write(list[j] + " ");
             }
         }
-        return list;
-    }
-
-    static void Main(string[] args)
-    {
         
-        CreatePrint(10);
+        return list;
     }
 }
