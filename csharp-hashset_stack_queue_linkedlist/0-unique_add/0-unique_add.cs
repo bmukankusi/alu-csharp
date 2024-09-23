@@ -1,18 +1,23 @@
-﻿
-class List {
-  public static int Sum(List<int> myList)
-  {
-    HashSet<int> uniqueInt = new HashSet<int>();
-    int sum = 0;
-    foreach (int num in myList)
+﻿class List
+{
+    public static int Sum(List<int> myList)
     {
-      if (!uniqueInt.Contains(num))
-      {
-        unique.Add(num);
-        sum += num;
-      }
-    }
-    return sum;
-  }
-}
+        List<int> Unique = new List<int>();
+        foreach (int element in myList)
+        {
+            if (Unique.Contains(element))
+            {
+                continue;
+            }else {
+                Unique.Add(element);
+            }
+        }
 
+        int sum = 0;
+        foreach (int el in Unique)
+        {
+            sum += el;
+        }
+        return sum;
+    }
+}
