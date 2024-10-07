@@ -2,6 +2,8 @@
 {
   public class Zombie
   {
-    // Empty class definition
+    /// <summary>
+    /// This is an empty Class representation of a zombie.
+    /// </summary>
   }
 }

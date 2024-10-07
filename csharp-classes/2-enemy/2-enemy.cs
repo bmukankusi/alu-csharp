@@ -14,7 +14,7 @@
         }
 
         ///<summary>
-        /// This is a paramaterized constructor which gives health a value
+        /// This is a paramaterized constructor which gives health a value.
         /// </summary>
 
         public Zombie(int value) {

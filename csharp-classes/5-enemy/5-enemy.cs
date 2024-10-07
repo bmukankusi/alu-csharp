@@ -2,14 +2,14 @@
 
 namespace Enemies {
     /// <summary>
-    /// This is a Class representation of a zombie
+    /// This is a Class representation of a zombie.
     /// </summary>
     class Zombie {
         private int health;
         private string name;
 
         /// <summary>
-        /// This is a constructor that sets the health to 0
+        /// This is a constructor that sets the health to 0.
         /// </summary>
 
         public Zombie() {
@@ -18,7 +18,7 @@ namespace Enemies {
         }
 
         ///<summary>
-        /// This is a paramaterized constructor which gives health a value
+        /// This is a paramaterized constructor which gives health a value.
         /// </summary>
 
         public Zombie(int value) {
@@ -29,7 +29,7 @@ namespace Enemies {
             name = "(No name)";
         }
         ///<summary>
-        /// This is a method which returns the health of a zombie
+        /// This is a method which returns the health of a zombie.
         /// </summary>
 
         public int GetHealth() {
@@ -42,7 +42,7 @@ namespace Enemies {
         }
 
         ///<summary>
-        /// This is a method which overrides the ToString method
+        /// This is a method which overrides the ToString method.
         /// </summary>
 
         override public string ToString() {

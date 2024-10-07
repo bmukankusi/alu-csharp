@@ -6,7 +6,7 @@
         public int health;
 
         /// <summary>
-        /// This is a constructor that sets the health to 0
+        /// This is a constructor that sets the health to 0.
         /// </summary>
 
         public Zombie() {
