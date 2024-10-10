@@ -6,13 +6,4 @@
 
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Example usage
-            Zombie zombie = new Zombie();
-            Console.WriteLine("A new zombie has been created.");
-        }
-    }
 }
