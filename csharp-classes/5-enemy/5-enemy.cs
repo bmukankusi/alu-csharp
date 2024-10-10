@@ -50,4 +50,17 @@ namespace Enemies {
         }
 
     }
+
+    class Program {
+        static void Main(string[] args) {
+            // Example usage, builds a new zombie and prints its health
+            Zombie zombie = new Zombie(5);
+            Console.WriteLine("A new zombie has been created.");
+            Console.WriteLine("The zombie has " + zombie.GetHealth() + " health.");
+            Console.WriteLine("The zombie's name is " + zombie.Name);
+            zombie.Name = "Bob";
+            Console.WriteLine("The zombie's name is now " + zombie.Name);
+            Console.WriteLine(zombie.ToString());
+        }
+    }
 }

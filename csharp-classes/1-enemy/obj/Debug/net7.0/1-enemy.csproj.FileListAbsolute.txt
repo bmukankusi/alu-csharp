@@ -3,3 +3,14 @@ C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Deb
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\1-enemy.AssemblyInfo.cs
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\1-enemy.csproj.CoreCompileInputs.cache
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\1-enemy.sourcelink.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\bin\Debug\net7.0\1-enemy.exe
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\bin\Debug\net7.0\1-enemy.xml
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\bin\Debug\net7.0\1-enemy.deps.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\bin\Debug\net7.0\1-enemy.runtimeconfig.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\bin\Debug\net7.0\1-enemy.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\bin\Debug\net7.0\1-enemy.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\1-enemy.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\refint\1-enemy.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\1-enemy.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\1-enemy.genruntimeconfig.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\1-enemy\obj\Debug\net7.0\ref\1-enemy.dll

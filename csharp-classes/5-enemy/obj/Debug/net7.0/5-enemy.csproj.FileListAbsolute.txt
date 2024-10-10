@@ -1,0 +1,16 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\bin\Debug\net7.0\5-enemy.exe
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\bin\Debug\net7.0\5-enemy.xml
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\bin\Debug\net7.0\5-enemy.deps.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\bin\Debug\net7.0\5-enemy.runtimeconfig.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\bin\Debug\net7.0\5-enemy.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\bin\Debug\net7.0\5-enemy.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.sourcelink.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\refint\5-enemy.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\5-enemy.genruntimeconfig.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\5-enemy\obj\Debug\net7.0\ref\5-enemy.dll

@@ -24,4 +24,13 @@
             health = value;
         }
     }
+
+    class Program {
+        static void Main(string[] args) {
+            // Example usage
+            Zombie zombie = new Zombie(5);
+            Console.WriteLine("A new zombie has been created.");
+            Console.WriteLine("The zombie has " + zombie.health + " health.");
+        }
+    }
 }

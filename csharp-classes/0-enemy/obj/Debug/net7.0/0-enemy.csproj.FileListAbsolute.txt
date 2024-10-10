@@ -14,3 +14,4 @@ C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\0-enemy\obj\Deb
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.pdb
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.genruntimeconfig.cache
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\ref\0-enemy.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.xml
