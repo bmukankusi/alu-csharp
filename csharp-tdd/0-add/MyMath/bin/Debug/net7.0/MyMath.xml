@@ -6,13 +6,16 @@
     <members>
         <member name="T:MyMath.Operations">
             <summary>
-             class for operations
+            Provides arithmetic operations.
             </summary>
         </member>
         <member name="M:MyMath.Operations.Add(System.Int32,System.Int32)">
             <summary>
-             This Method adds two numbers
+            Adds two integers and returns the sum.
             </summary>
+            <param name="a">First integer to add.</param>
+            <param name="b">Second integer to add.</param>
+            <returns>The sum of the two integers.</returns>
         </member>
     </members>
 </doc>

@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath.Tests\\MyMath.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath.Tests\\MyMath.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath.Tests\\MyMath.Tests.csproj",
+        "projectName": "MyMath.Tests",
+        "projectPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath.Tests\\MyMath.Tests.csproj",
+        "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath\\MyMath.csproj": {
+                "projectPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath\\MyMath.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath\\MyMath.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath\\MyMath.csproj",
+        "projectName": "MyMath",
+        "projectPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath\\MyMath.csproj",
+        "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-tdd\\2-max_int\\MyMath\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
