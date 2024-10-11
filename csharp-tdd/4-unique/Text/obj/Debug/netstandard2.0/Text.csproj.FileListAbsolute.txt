@@ -1,0 +1,6 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\4-unique\Text\obj\Debug\netstandard2.0\Text.csproj.AssemblyReference.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\4-unique\Text\obj\Debug\netstandard2.0\Text.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\4-unique\Text\obj\Debug\netstandard2.0\Text.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\4-unique\Text\obj\Debug\netstandard2.0\Text.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\4-unique\Text\obj\Debug\netstandard2.0\Text.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\4-unique\Text\obj\Debug\netstandard2.0\Text.sourcelink.json
