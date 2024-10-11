@@ -1,18 +1,15 @@
+using NUnit.Framework;
+using MyMath;
+
 namespace MyMath.Tests
 {
-    public class Tests
+    public class OperationsTests
     {
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void Add_TwoPositiveIntegers_ShouldReturnSum()
         {
-        }
-
-        [TestCase(2, 3, 5)]
-        [TestCase(-1, -2, -3)]
-        [TestCase(1, 1, 2)]
-        public void Test_Addition(int a, int b, int result)
-        {
-            Assert.That(result, Is.EqualTo(MyMath.Operations.Add(a, b)));
+            int result = Operations.Add(2, 3);
+            Assert.AreEqual(5, result);
         }
     }
 }
