@@ -1,6 +1,0 @@
-C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.AssemblyReference.cache
-C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfoInputs.cache
-C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfo.cs
-C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.CoreCompileInputs.cache
-C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.sourcelink.json
