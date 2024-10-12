@@ -1,0 +1,12 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.AssemblyReference.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.sourcelink.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.xml
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.deps.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.pdb
