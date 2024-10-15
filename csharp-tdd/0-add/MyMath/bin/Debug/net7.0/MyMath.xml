@@ -6,7 +6,7 @@
     <members>
         <member name="T:MyMath.Operations">
             <summary>
-            Provides mathematical operations.
+            Mathematically adds two integers.
             </summary>
         </member>
         <member name="M:MyMath.Operations.Add(System.Int32,System.Int32)">
@@ -15,7 +15,7 @@
             </summary>
             <param name="a">The first integer.</param>
             <param name="b">The second integer.</param>
-            <returns>The sum of the two integers.</returns>
+            <returns>The sum of the two integers, a and b.</returns>
         </member>
     </members>
 </doc>

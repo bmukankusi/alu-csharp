@@ -1,17 +1,21 @@
 using NUnit.Framework;
 using MyMath;
 
-namespace MyMath.Tests {
-    /// <summary>
-    /// Contains unit tests for the Operations class.
-    /// </summary>
-    public class OperationsTests {
-        /// <summary>
-        /// Tests the Add method to ensure it correctly adds two integers.
-        /// </summary>
+namespace MyMath.Tests;
+{
+    [TestFixture]
+    public class OperationsTests
+    {
         [Test]
-        public void Add_AddsTwoIntegers_ReturnsSum() {
-            Assert.AreEqual(5, Operations.Add(2, 3));
-        }
+        public void Add_ReturnSum_WhenTwoNumbersAreGiven()
     }
+
+    int a = 1;
+    int b = 7;
+
+    //Add the two numbers
+    int sum = Operations.Add(a, b);
+
+    //Assert
+    Assert.AreEqual(8, sum);
 }

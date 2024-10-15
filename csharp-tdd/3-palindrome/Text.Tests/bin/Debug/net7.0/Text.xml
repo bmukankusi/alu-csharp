@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Text</name>
+    </assembly>
+    <members>
+        <member name="T:Text.Str">
+            <summary>
+            Provides string operations.
+            </summary>
+        </member>
+        <member name="M:Text.Str.IsPalindrome(System.String)">
+            <summary>
+            Determines whether the specified string is a palindrome.
+            </summary>
+            <param name="s">The string to check.</param>
+            <returns>True if the string is a palindrome, False otherwise.</returns>
+        </member>
+    </members>
+</doc>
