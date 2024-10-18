@@ -1,0 +1,5 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\9-shape\obj\Debug\net7.0\9-shape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\9-shape\obj\Debug\net7.0\9-shape.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\9-shape\obj\Debug\net7.0\9-shape.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\9-shape\obj\Debug\net7.0\9-shape.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\9-shape\obj\Debug\net7.0\9-shape.sourcelink.json

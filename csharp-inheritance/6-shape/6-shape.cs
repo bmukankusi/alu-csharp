@@ -7,19 +7,18 @@ class Shape
         throw new NotImplementedException("Area() is not implemented");
     }
 }
-class Rectangle : Shape
 
-/// <summary>
-/// Class Rectangle ihnerits from Shape
-/// </summary>
+ /// <summary>
+ /// Represents a rectangle.
+ /// </summary>
+class Rectangle : Shape
 {
     private int width;
     private int height;
 
     /// <summary>
-    /// Width property
+    /// Gets or sets the width of the rectangle.
     /// </summary>
-    /// <exception cref="ArgumentException">Thrown when width is less than 0</exception>
     public int Width
     {
         get { return(width); }
@@ -31,12 +30,6 @@ class Rectangle : Shape
                 width = value;
         }
     }
-
-    /// <summary>
-    /// Height property
-    /// </summary>
-    /// <value>get: returns the height, set: sets the height</value>
-    /// <exception cref="ArgumentException">Thrown when height is less than 0</exception>
     public int Height
     {
         get { return(height); }

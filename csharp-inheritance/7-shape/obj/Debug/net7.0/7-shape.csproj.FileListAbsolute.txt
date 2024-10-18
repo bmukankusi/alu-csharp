@@ -1,0 +1,5 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\7-shape\obj\Debug\net7.0\7-shape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\7-shape\obj\Debug\net7.0\7-shape.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\7-shape\obj\Debug\net7.0\7-shape.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\7-shape\obj\Debug\net7.0\7-shape.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\7-shape\obj\Debug\net7.0\7-shape.sourcelink.json

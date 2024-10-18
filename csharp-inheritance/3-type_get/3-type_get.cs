@@ -1,54 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
 
-namespace methods
+/// <summary>
+/// This is our class Obj that contains methods to print properties and methods of any object.
+/// </summary>
+class Obj
 {
-    /// <summary>
-    /// Provides methods for inspecting objects.
-    /// </summary>
-    public static class Obj
+    public static void Print(object myObj)
     {
-        /// <summary>
-        /// Prints the names of the available properties and methods of an object.
-        /// </summary>
-        /// <param name="myObj">The object to inspect.</param>
-        public static void Print(object myObj)
-        {
-            if (myObj == null)
-            {
-                Console.WriteLine("Object is null");
-                return;
-            }
+        Type t = myObj.GetType();
+        TypeInfo myType = t.GetTypeInfo();
+        PropertyInfo[] props = t.GetProperties();
+        MethodInfo[] methods = t.GetMethods();
 
-            Type type = myObj.GetType();
-            PropertyInfo[] properties = type.GetProperties();
-            MethodInfo[] methods = type.GetMethods();
+        Console.WriteLine(myType.Name + " Properties:");
+        foreach (var element in props)
+            Console.WriteLine(element.Name);
 
-            Console.WriteLine($"{type.Name} Properties:");
-            foreach (var property in properties)
-            {
-                Console.WriteLine(property.Name);
-            }
-
-            Console.WriteLine($"{type.Name} Methods:");
-            foreach (var method in methods)
-            {
-                Console.WriteLine(method.Name);
-            }
-        }
-    }
-
-    //example class
-       class Program
-    {
-       static void Main(string[] args)
-        {
-          var number = 10;
-          var myList = new List<int>();
-
-          Obj.Print(number);
-          Console.WriteLine("---------------");
-          Obj.Print(myList);
-        }
+        Console.WriteLine(myType.Name + " Methods:");
+        foreach (var element in methods)
+            Console.WriteLine(element.Name);
     }
 }

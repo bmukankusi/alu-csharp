@@ -7,7 +7,7 @@ class Shape
     /// Calculate the area of a shape.
     /// </summary>
     /// <returns>Area of the shape</returns>
-    /// exception cref="NotImplementedException">Thrown when the method is not implemented.</exception>
+    /// <exception cref="NotImplementedException">Thrown when the method is not implemented.</exception>
     public virtual int Area()
     {
         {
