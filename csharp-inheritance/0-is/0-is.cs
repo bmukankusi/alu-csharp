@@ -1,23 +1,16 @@
-﻿
-
-namespace Object
-{
+﻿/// <summary>
+/// The Obj Class
+/// </summary>
+class Obj {
     /// <summary>
-    /// Provides methods for type checking.
+    /// Method to check if an object is of type int
     /// </summary>
-    public static class Obj
-    {
-        /// <summary>
-        /// Determines whether the specified object is of type int.
-        /// </summary>
-        /// <param name="obj">The object to check.</param>
-        /// <returns>True if the object is of type int, otherwise False.</returns>
-        public static bool IsOfTypeInt(object obj)
-        {
-           if (obj is int)
-              {
-                    return true;
-              }
+    /// <param name="obj"></param>
+    /// <returns>True | False</returns>
+    public static bool IsOfTypeInt(object obj) {
+        if (obj is int) {
+            return true;
+        } 
         return false;
     }
 }
