@@ -1,0 +1,5 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.sourcelink.json
