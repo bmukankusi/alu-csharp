@@ -2,24 +2,28 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-/// <summary>
-/// This is our class Obj that contains methods to print properties and methods of any object.
-/// </summary>
-class Obj
+    /// <summary>Represents the class Obj.</summary>
+
+public class Obj
 {
+    /// <summary>
+    /// prints the names of the available properties and methods of an object.
+    /// </summary>
+    /// <param name="myObj">Object from where to get informations.</param>
     public static void Print(object myObj)
     {
-        Type t = myObj.GetType();
-        TypeInfo myType = t.GetTypeInfo();
-        PropertyInfo[] props = t.GetProperties();
-        MethodInfo[] methods = t.GetMethods();
-
-        Console.WriteLine(myType.Name + " Properties:");
-        foreach (var element in props)
-            Console.WriteLine(element.Name);
-
-        Console.WriteLine(myType.Name + " Methods:");
-        foreach (var element in methods)
-            Console.WriteLine(element.Name);
+        Type type = myObj.GetType();
+        
+        Console.WriteLine($"{type.Name} Properties:");
+        foreach (PropertyInfo prop in type.GetProperties())
+        {
+            Console.WriteLine(prop.Name);
+        }
+        
+        Console.WriteLine($"{type.Name} Methods:");
+        foreach (MethodInfo method in type.GetMethods())
+        {
+            Console.WriteLine(method.Name);
+        }
     }
 }
