@@ -6,7 +6,7 @@
     <RootNamespace>_6_vector_addition</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <DocumentationFile>bin/Debug/netcoreapp2.1/33-inverse_2D.xml</DocumentationFile>
+    <DocumentationFile>bin/Debug/netcoreapp2.1/6-vector_addition.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
