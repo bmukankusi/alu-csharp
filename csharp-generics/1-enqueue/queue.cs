@@ -2,7 +2,6 @@
 /// Generic class Queue that creates a queue of nodes
 /// </summary>
 /// <typeparam name="T"></typeparam>
-
 public class Queue<T>
 {
     /// <summary>
@@ -39,7 +38,6 @@ public class Queue<T>
             value = v;
             next = null;
         }
-
     }
     /// <summary>
     /// Method that returns the type of the Queue
@@ -77,5 +75,13 @@ public class Queue<T>
     public int Count()
     {
         return count;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
     }
 }

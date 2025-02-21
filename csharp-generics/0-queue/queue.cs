@@ -1,8 +1,9 @@
-﻿///<summary>
+﻿using System;
+using System.Collections.Generic;
+
+///<summary>
 ///Generic class Queue
 ///</summary>
-
-
 public class Queue<T>
 {
     /// <summary>
@@ -12,5 +13,14 @@ public class Queue<T>
     public Type CheckType()
     {
         return typeof(T);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Queue<int> queue = new Queue<int>();
+        Console.WriteLine(queue.CheckType());
     }
 }

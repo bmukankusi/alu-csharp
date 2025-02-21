@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>_5_concatenate</RootNamespace>
-    <DocumentationFile>_5_concatenate.xml</DocumentationFile>
+    <RootNamespace>5_concatenate</RootNamespace>
+    <DocumentationFile>5_concatenate.xml</DocumentationFile>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

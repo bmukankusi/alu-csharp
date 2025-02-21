@@ -1,7 +1,8 @@
 ﻿/// <summary>
-/// Generic class Queue
+/// Generic class Queue that creates a new Queue
 /// </summary>
 /// <typeparam name="T"></typeparam>
+using System;
 
 public class Queue<T>
 {
@@ -23,15 +24,15 @@ public class Queue<T>
   public class Node
   {
     /// <summary>
-    /// Value of a node
+    /// Value of a node 
     /// </summary>
     public T? value = default;
     /// <summary>
-    /// Next pointer of a node
+    /// Next pointer of a node 
     /// </summary>
     public Node? next = null;
     /// <summary>
-    /// Constructor
+    /// The constructor of the Node class
     /// </summary>
     /// <param name="v"></param>
     public Node(T v)
@@ -43,8 +44,9 @@ public class Queue<T>
   }
   /// <summary>
   /// Method that returns the type of the Queue
+  /// A method that returns the type of the Queue
   /// </summary>
-  /// <returns></returns>
+  /// <returns> The type of the Queue </returns>
   public Type CheckType()
   {
     return typeof(T);
@@ -72,7 +74,7 @@ public class Queue<T>
   /// <summary>
   /// A method to remove the first element in the queue
   /// </summary>
-  /// <returns></returns>
+  /// <returns> The value of the node </returns>
   public T Dequeue()
   {
     if (head == null)
@@ -170,25 +172,10 @@ class Program
 {
   static void Main(string[] args)
   {
-    // Queue<string> myStrQ = new Queue<string>();
-
-    // myStrQ.Enqueue("hello");
-    // myStrQ.Enqueue("holberton");
-    // myStrQ.Enqueue("school");
-
-    // Console.WriteLine(myStrQ.Concatenate());
-
-    // Console.WriteLine("----------");
-
-    // Queue<int> myIntQ = new Queue<int>();
-    // myIntQ.Concatenate();
-
-    // Console.WriteLine("----------");
-
-    // Queue<char> myCharQ = new Queue<char>();
-    // myCharQ.Enqueue('a');
-    // myCharQ.Enqueue('b');
-    // myCharQ.Enqueue('c');
-    // Console.WriteLine(myCharQ.Concatenate());
+    Queue<string> myQueue = new Queue<string>();
+    myQueue.Enqueue("Hello");
+    myQueue.Enqueue("World");
+    myQueue.Enqueue("!");
+    Console.WriteLine(myQueue.Concatenate());
   }
 }

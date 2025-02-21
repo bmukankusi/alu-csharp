@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>_4_print</RootNamespace>
-    <DocumentationFile>_4_print.xml</DocumentationFile>
+    <RootNamespace>4_print</RootNamespace>
+    <DocumentationFile>4_print.xml</DocumentationFile>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
