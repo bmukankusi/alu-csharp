@@ -1,0 +1,5 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.sourcelink.json
