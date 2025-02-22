@@ -1,0 +1,6 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\3-peek\obj\Debug\netcoreapp2.1\3-peek.csproj.AssemblyReference.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\3-peek\obj\Debug\netcoreapp2.1\3-peek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\3-peek\obj\Debug\netcoreapp2.1\3-peek.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\3-peek\obj\Debug\netcoreapp2.1\3-peek.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\3-peek\obj\Debug\netcoreapp2.1\3-peek.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\3-peek\obj\Debug\netcoreapp2.1\3-peek.sourcelink.json
