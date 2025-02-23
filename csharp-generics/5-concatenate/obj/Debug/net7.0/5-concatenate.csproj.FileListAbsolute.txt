@@ -1,9 +1,9 @@
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\bin\Debug\net7.0\5-concatenate.exe
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\bin\Debug\net7.0\5-concatenate.xml
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\bin\Debug\net7.0\5-concatenate.deps.json
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\bin\Debug\net7.0\5-concatenate.runtimeconfig.json
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\bin\Debug\net7.0\5-concatenate.dll
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\bin\Debug\net7.0\5-concatenate.pdb
-C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\bin\Debug\net7.0\_5_concatenate.xml
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\obj\Debug\net7.0\5-concatenate.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\obj\Debug\net7.0\5-concatenate.AssemblyInfoInputs.cache
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-generics\5-concatenate\obj\Debug\net7.0\5-concatenate.AssemblyInfo.cs

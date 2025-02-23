@@ -5,87 +5,86 @@
     </assembly>
     <members>
         <member name="T:Queue`1">
-            <summary>
-            Generic class Queue
-            </summary>
-            <typeparam name="T"></typeparam>
-        </member>
-        <member name="F:Queue`1.head">
-            <summary>
-            Head of the Queue
-            </summary>
-        </member>
-        <member name="F:Queue`1.tail">
-            <summary>
-            Tail of the Queue
-            </summary>
-        </member>
-        <member name="F:Queue`1.count">
-            <summary>
-            Count of the Nodes
-            </summary>
+             <summary>
+            public class queue
+             </summary>
+             <typeparam name="T"></typeparam>
         </member>
         <member name="T:Queue`1.Node">
             <summary>
-            The Node class
+            class Node
             </summary>
         </member>
-        <member name="F:Queue`1.Node.value">
+        <member name="F:Queue`1.Node.Value">
             <summary>
-            Value of a node
+            value of node
             </summary>
         </member>
-        <member name="F:Queue`1.Node.next">
+        <member name="F:Queue`1.Node.Next">
             <summary>
-            Next pointer of a node
+            reference to the next node in queue
             </summary>
         </member>
         <member name="M:Queue`1.Node.#ctor(`0)">
             <summary>
-            Constructor
+            initializes values
             </summary>
-            <param name="v"></param>
+            <param name="value"></param>
         </member>
-        <member name="M:Queue`1.CheckType">
+        <member name="F:Queue`1.head">
             <summary>
-            Method that returns the type of the Queue
+            head node
             </summary>
-            <returns></returns>
+        </member>
+        <member name="F:Queue`1.tail">
+            <summary>
+            tail node
+            </summary>
+        </member>
+        <member name="M:Queue`1.#ctor">
+            <summary>
+            queue method
+            </summary>
         </member>
         <member name="M:Queue`1.Enqueue(`0)">
             <summary>
-            Method that adds an item to the queue
+            enqueue method
             </summary>
             <param name="value"></param>
         </member>
         <member name="M:Queue`1.Dequeue">
             <summary>
-            A method to remove the first element in the queue
+            dequeue method
             </summary>
             <returns></returns>
         </member>
         <member name="M:Queue`1.Peek">
             <summary>
-            A method to return the first element in th queue
+            peek method that returns value of first node  w/o removing node
             </summary>
             <returns></returns>
         </member>
         <member name="M:Queue`1.Print">
             <summary>
-            A method to Print the elements
+            print method prints queue from head
             </summary>
+            <returns></returns>
         </member>
         <member name="M:Queue`1.Concatenate">
             <summary>
-            Method to concatenate the contents of a queue
+            concatenate method
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            checktype method
+            </summary>
+        </member>
         <member name="M:Queue`1.Count">
             <summary>
-            Method to count all the nodes of a queue
+            count method
             </summary>
-            <returns></returns>
         </member>
     </members>
 </doc>
