@@ -7,10 +7,25 @@ using System.Text;
 /// <typeparam name="T">The type of elements in the queue.</typeparam>
 public class Queue<T>
 {
+    /// <summary>
+    /// Represents a node in the queue.
+    /// </summary>
     public class Node
     {
+        /// <summary>
+        /// Gets or sets the value of the node.
+        /// </summary>
         public T? Value { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the next node in the queue.
+        /// </summary>
         public Node? Next { get; set; }
+        
+        /// <summary>
+        /// Initializes a new instance of the Node class with the specified value.
+        /// </summary>
+        /// <param name="value">The value of the node.</param>
         public Node(T value)
         {
             Value = value;
@@ -22,6 +37,9 @@ public class Queue<T>
     private Node? tail;
     private int count;
 
+    /// <summary>
+    /// Initializes a new instance of the Queue class.
+    /// </summary>
     public Queue()
     {
         head = null;
@@ -29,6 +47,10 @@ public class Queue<T>
         count = 0;
     }
 
+    /// <summary>
+    /// Adds an element to the end of the queue.
+    /// </summary>
+    /// <param name="value">The value to enqueue.</param>
     public void Enqueue(T value)
     {
         Node newNode = new Node(value);
@@ -45,6 +67,10 @@ public class Queue<T>
         count++;
     }
 
+    /// <summary>
+    /// Concatenates all elements in the queue if they are of type string or char.
+    /// </summary>
+    /// <returns>The concatenated string if applicable; otherwise, null.</returns>
     public string? Concatenate()
     {
         if (count == 0)
@@ -69,6 +95,6 @@ public class Queue<T>
             current = current.Next;
         }
 
-        return result.ToString();
+        return result.ToString().Trim();
     }
 }
