@@ -1,29 +1,16 @@
-﻿// Concatenate all values in the queue if the queue is of type String or Char.
+using System;
+using System.Text;
+
 /// <summary>
-/// A generic queue.
+/// Represents a generic queue.
 /// </summary>
-/// <typeparam name="T">Element type.</typeparam>
+/// <typeparam name="T">The type of elements in the queue.</typeparam>
 public class Queue<T>
 {
-    /// <summary>
-    /// A node in the queue.
-    /// </summary>
     public class Node
     {
-        /// <summary>
-        /// Node value.
-        /// </summary>
-        public T Value { get; set; }
-        
-        /// <summary>
-        /// Next node.
-        /// </summary>
-        public Node Next { get; set; }
-
-        /// <summary>
-        /// Creates a node with a value.
-        /// </summary>
-        /// <param name="value">Node value.</param>
+        public T? Value { get; set; }
+        public Node? Next { get; set; }
         public Node(T value)
         {
             Value = value;
@@ -31,124 +18,57 @@ public class Queue<T>
         }
     }
 
-    /// <summary>
-    /// Queue head.
-    /// </summary>
-    public Node Head { get; private set; }
-    
-    /// <summary>
-    /// Queue tail.
-    /// </summary>
-    public Node Tail { get; private set; }
-    
-    /// <summary>
-    /// Node count.
-    /// </summary>
+    private Node? head;
+    private Node? tail;
     private int count;
 
-    /// <summary>
-    /// Initializes the queue.
-    /// </summary>
     public Queue()
     {
-        Head = null;
-        Tail = null;
+        head = null;
+        tail = null;
         count = 0;
     }
 
-    /// <summary>
-    /// Adds a node to the end.
-    /// </summary>
-    /// <param name="value">Node value.</param>
     public void Enqueue(T value)
     {
         Node newNode = new Node(value);
-        if (Tail == null)
+        if (head == null)
         {
-            Head = newNode;
+            head = newNode;
+            tail = newNode;
         }
         else
         {
-            Tail.Next = newNode;
+            tail!.Next = newNode;
+            tail = newNode;
         }
-        Tail = newNode;
         count++;
     }
 
-    /// <summary>
-    /// Removes the first node and returns its value.
-    /// </summary>
-    /// <returns>Value of the dequeued node or default value if empty.</returns>
-    public T Dequeue()
+    public string? Concatenate()
     {
-        if (Head == null)
+        if (count == 0)
         {
             Console.WriteLine("Queue is empty");
-            return default(T);
+            return null;
         }
-        
-        T value = Head.Value;
-        Head = Head.Next;
-        
-        if (Head == null)
+
+        if (typeof(T) != typeof(string) && typeof(T) != typeof(char))
         {
-            Tail = null;
+            Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
+            return null;
         }
-        
-        count--;
-        return value;
-    }
 
-    /// <summary>
-    /// Concatenates all values in the queue if the queue is of type String or Char.
-    /// </summary>
-    /// <returns>Concatenated string or null if not applicable.</returns>
-    public string? Concatenate()
-{
-    if (count == 0)
-    {
-        Console.WriteLine("Queue is empty");
-        return null;
-    }
+        StringBuilder result = new StringBuilder();
+        Node? current = head;
+        while (current != null)
+        {
+            result.Append(current.Value);
+            if (typeof(T) == typeof(string) && current.Next != null)
+                result.Append(" ");
+            current = current.Next;
+        }
 
-    if (typeof(T) != typeof(string) && typeof(T) != typeof(char))
-    {
-        Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
-        return null;
-    }
-
-    Node? current = head;
-    if (typeof(T) == typeof(string))
-    {
-        return string.Join(" ", this); // Ensure correct spacing for strings
-    }
-
-    string result = "";
-    while (current != null)
-    {
-        result += current.Value;
-        current = current.Next;
-    }
-
-    return result;
-}
-
-
-    /// <summary>
-    /// Gets the node count.
-    /// </summary>
-    /// <returns>Node count.</returns>
-    public int Count()
-    {
-        return count;
-    }
-
-    /// <summary>
-    /// Gets the element type.
-    /// </summary>
-    /// <returns>Element type.</returns>
-    public Type CheckType()
-    {
-        return typeof(T);
+        return result.ToString();
     }
 }
