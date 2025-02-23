@@ -103,34 +103,36 @@ public class Queue<T>
     /// Concatenates all values in the queue if the queue is of type String or Char.
     /// </summary>
     /// <returns>Concatenated string or null if not applicable.</returns>
-    public string Concatenate()
+    public string? Concatenate()
+{
+    if (count == 0)
     {
-        if (count == 0)
-        {
-            Console.WriteLine("Queue is empty");
-            return null;
-        }
-
-        if (typeof(T) != typeof(string) && typeof(T) != typeof(char))
-        {
-            Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
-            return null;
-        }
-
-        string result = "";
-        Node current = Head;
-        while (current != null)
-        {
-            result += current.Value.ToString();
-            if (typeof(T) == typeof(string))
-            {
-                result += " ";
-            }
-            current = current.Next;
-        }
-
-        return typeof(T) == typeof(string) ? result.TrimEnd() : result;
+        Console.WriteLine("Queue is empty");
+        return null;
     }
+
+    if (typeof(T) != typeof(string) && typeof(T) != typeof(char))
+    {
+        Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
+        return null;
+    }
+
+    Node? current = head;
+    if (typeof(T) == typeof(string))
+    {
+        return string.Join(" ", this); // Ensure correct spacing for strings
+    }
+
+    string result = "";
+    while (current != null)
+    {
+        result += current.Value;
+        current = current.Next;
+    }
+
+    return result;
+}
+
 
     /// <summary>
     /// Gets the node count.
