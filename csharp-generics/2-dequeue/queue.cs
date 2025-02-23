@@ -1,4 +1,5 @@
-﻿﻿
+﻿using System;
+
 /// <summary>
 /// A generic queue.
 /// </summary>
@@ -76,26 +77,26 @@ public class Queue<T>
     }
 
     /// <summary>
-    /// Removes the first node from the queue and returns its value.
+    /// Removes the first node and returns its value.
     /// </summary>
-    /// <returns>The value of the first node.</returns>
+    /// <returns>Value of the dequeued node or default value if empty.</returns>
     public T Dequeue()
     {
         if (Head == null)
         {
             Console.WriteLine("Queue is empty");
-            return default(T); // Return default value for type T (null for reference types, 0 for value types)
+            return default(T);
         }
-
+        
         T value = Head.Value;
         Head = Head.Next;
-        count--;
-
+        
         if (Head == null)
         {
             Tail = null;
         }
-
+        
+        count--;
         return value;
     }
 
@@ -116,5 +117,4 @@ public class Queue<T>
     {
         return typeof(T);
     }
-
 }

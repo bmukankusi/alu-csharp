@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+
 /// <summary>
 /// A generic queue.
 /// </summary>
@@ -12,5 +13,12 @@ public class Queue<T>
     public Type CheckType()
     {
         return typeof(T);
+    }
+
+    //Main method
+    static void Main()
+    {
+        Queue<int> queue = new Queue<int>();
+        Console.WriteLine(queue.CheckType());
     }
 }

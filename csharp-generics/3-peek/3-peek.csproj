@@ -3,11 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>3_peek</RootNamespace>
-    <DocumentationFile>3_peek.xml</DocumentationFile>
+    <RootNamespace>_3_peek</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile>bin/Debug/netcoreapp2.1/3-peek.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
