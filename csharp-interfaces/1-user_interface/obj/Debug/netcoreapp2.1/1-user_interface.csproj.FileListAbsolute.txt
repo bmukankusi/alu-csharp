@@ -1,0 +1,5 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.csproj.AssemblyReference.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\netcoreapp2.1\1-user_interface.csproj.CoreCompileInputs.cache

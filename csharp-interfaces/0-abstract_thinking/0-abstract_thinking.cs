@@ -1,15 +1,19 @@
-﻿/// <summary>
-/// Abstract class Base
+﻿
+/// <summary>
+/// base class for inheritance
 /// </summary>
+public abstract class Base{
 
-abstract class Base
-{
-    public string name { get; set; }
+/// <summary>
+/// holds the name
+/// </summary>
+    public String? name;
 
-    public override string ToString()
-    {
+/// <summary>
+/// override to display custom properties
+/// </summary>
+/// <returns></returns>
+    public override String ToString(){
         return $"{name} is a {this.GetType()}";
     }
-
-    Console.WriteLine("Base class");
 }

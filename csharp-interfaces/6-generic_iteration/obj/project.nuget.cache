@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jVH9uxMraqLJRQx1rUv9Vc4zt+lWv57mcTG9S3mZQzuYu4jHWnJvltKdCKEh/7LXdO4W+YLhBGqpGtmjU+t+g==",
+  "dgSpecHash": "4sYk2cAjFObOhCRTctzxfjiL6hpw2uv9AZi1ae8LLFrJPJdiN0/RRo0a06VQt4VmjBrvIpuYhrPMt465r3VNgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-interfaces\\0-abstract_thinking\\0-abstract_thinking.csproj",
+  "projectFilePath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-interfaces\\6-generic_iteration\\6-generic_iteration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP1\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

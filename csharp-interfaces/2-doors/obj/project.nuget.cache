@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jVH9uxMraqLJRQx1rUv9Vc4zt+lWv57mcTG9S3mZQzuYu4jHWnJvltKdCKEh/7LXdO4W+YLhBGqpGtmjU+t+g==",
+  "dgSpecHash": "E4yWu5cLm12skndKRbvOmxr04p1TLBX72bIlbvjg2g1/gMxKIy7deUwiAE4uLgqtMQDFtHEkbnl0XhTEe2//1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-interfaces\\0-abstract_thinking\\0-abstract_thinking.csproj",
+  "projectFilePath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-interfaces\\2-doors\\2-doors.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP1\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
