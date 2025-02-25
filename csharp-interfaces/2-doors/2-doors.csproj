@@ -4,7 +4,6 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>_2_doors</RootNamespace>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <DocumentationFile>bin/Debug/netcoreapp2.1/2-doors.xml</DocumentationFile>
     <Nullable>enable</Nullable>
