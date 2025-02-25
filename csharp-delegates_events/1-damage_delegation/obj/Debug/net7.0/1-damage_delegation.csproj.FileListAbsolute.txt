@@ -1,0 +1,4 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net7.0\1-damage_delegation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net7.0\1-damage_delegation.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net7.0\1-damage_delegation.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net7.0\1-damage_delegation.csproj.CoreCompileInputs.cache

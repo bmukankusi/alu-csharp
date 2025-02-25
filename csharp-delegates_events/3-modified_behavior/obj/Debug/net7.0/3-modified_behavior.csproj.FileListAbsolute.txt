@@ -1,0 +1,4 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.csproj.CoreCompileInputs.cache

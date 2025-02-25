@@ -1,0 +1,4 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.csproj.CoreCompileInputs.cache

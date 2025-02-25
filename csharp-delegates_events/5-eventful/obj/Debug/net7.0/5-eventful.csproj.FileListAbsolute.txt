@@ -1,0 +1,4 @@
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.csproj.CoreCompileInputs.cache
