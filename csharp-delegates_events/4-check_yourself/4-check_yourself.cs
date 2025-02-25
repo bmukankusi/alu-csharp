@@ -216,3 +216,15 @@ public class Player
         Console.WriteLine($"{name} has {hp} / {maxHp} health");
     }
 }
+
+class Program
+{
+    static void Main()
+    {
+        Player player = new Player("Floppy Fish", 100f);
+        player.PrintHealth();
+
+        player.TakeDamage(25f);
+        player.PrintHealth();
+    }
+}
