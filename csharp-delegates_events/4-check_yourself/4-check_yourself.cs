@@ -1,5 +1,6 @@
-﻿using System;
-
+﻿/// <summary>
+/// Create a Player class with the following members:
+/// </summary>
 
 
 public class CurrentHPArgs : EventArgs{
@@ -15,13 +16,13 @@ public class CurrentHPArgs : EventArgs{
 /// <summary>
 /// enum modifier
 /// </summary>
+
 public enum Modifier {
     Weak,
     Base,
     Strong
 }
 
-//modifier delegate
 public delegate float CalculateModifier(float baseValue, Modifier modifier);
 
 /// <summary>
@@ -105,6 +106,7 @@ public class Player {
 /// validate the hp
 /// </summary>
 /// <param name="newHp"></param>
+
     public void ValidateHP(float newHp){
         if(newHp < 0 ){
             hp  = 0;
@@ -122,7 +124,7 @@ public class Player {
 /// </summary>
 /// <param name="baseValue"></param>
 /// <param name="modifier"></param>
-/// <returns></returns>
+
     public float ApplyModifier(float baseValue, Modifier modifier){
 
         if(modifier == Modifier.Weak){
@@ -140,11 +142,7 @@ public class Player {
         return default(float);
     }
 
-    /// <summary>
-    /// checks the status
-    /// </summary>
-    /// <param name="Sender"></param>
-    /// <param name="e"></param>
+    //CheckStatus method
     private void CheckStatus(object? Sender, CurrentHPArgs e){
         if(e.currentHp == maxHp){
             Console.WriteLine($"{name} is in perfect health!");

@@ -1,5 +1,7 @@
-﻿using System;
-using System.Drawing;
+﻿/// <summary>
+/// CurrentHPArgs class, inherits from EventArgs
+/// </summary>
+/// <param name="newHp"></param>
 
 
 public class CurrentHPArgs : EventArgs{
