@@ -1,18 +1,21 @@
 ﻿
 /// <summary>
-/// Abstract base class.
+/// Create an abstract class called Base.
 /// </summary>
 public abstract class Base
 {
     /// <summary>
     /// Gets or sets the name of the entity.
+    /// <value>The name of the entity.</value>
     /// </summary>
+    
     public string? name { get; set; }
 
     /// <summary>
     /// Returns a string representation of the object.
     /// </summary>
     /// <returns>A string that represents the current object.</returns>
+
     public override string ToString()
     {
         return $"{name} is a {this.GetType().Name}";
@@ -20,18 +23,21 @@ public abstract class Base
 }
 
 /// <summary>
-/// Interface for interactive objects.
+/// Provides an interface for interactive objects.
 /// </summary>
+/// <remarks>Interactive objects can be interacted with.</remarks>
+
 public interface IInteractive
 {
     /// <summary>
-    /// Interact method.
+    /// Method for interacting with an object.
     /// </summary>
+    
     void Interact();
 }
 
 /// <summary>
-/// Interface for breakable objects.
+/// Creates an interface for breakable objects.
 /// </summary>
 public interface IBreakable
 {
@@ -41,7 +47,7 @@ public interface IBreakable
     int durability { get; set; }
 
     /// <summary>
-    /// Break method.
+    /// Method for breaking an object.
     /// </summary>
     void Break();
 }

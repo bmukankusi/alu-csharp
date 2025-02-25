@@ -1,16 +1,11 @@
-﻿using System;
-/// <summary>
-/// abstract class Base
-/// </summary>
+﻿
 public abstract class Base {
-/// <summary>
-/// name property
-/// </summary>
+
     public string? name { get ; set; }
 /// <summary>
 /// ToString() method
 /// </summary>
-/// <returns></returns>
+
     public override string ToString()
     {
         return $"{name} is a {GetType().Name}";
@@ -22,34 +17,21 @@ public abstract class Base {
 /// </summary>
 public interface IInteractive {
 
-/// <summary>
-/// interact method
-/// </summary>
+
     public void Interact();
 }
 
-/// <summary>
-/// IBreakable interface
-/// </summary>
+
 public interface IBreakable {
 
-/// <summary>
-/// durability
-/// </summary>
+
     public int durability { get ; set;}
-/// <summary>
-/// break method
-/// </summary>
+
     public void Break();
 }
 
-/// <summary>
-/// ICollectable interface
-/// </summary>
 public interface ICollectable{
-/// <summary>
-/// isCollected
-/// </summary>
+
     public bool isCollected { get ; set; }
 
 /// <summary>
@@ -62,6 +44,7 @@ public interface ICollectable{
 /// <summary>
 /// class Door
 /// </summary>
+
 public class Door : Base , IInteractive{
 
 /// <summary>
@@ -151,21 +134,19 @@ public class Decoration : Base, IInteractive, IBreakable {
     }
 }
 
-/// <summary>
-/// class key inheriting from base and iscollectable
-/// </summary>
+
 public class Key: Base, ICollectable {
 
-/// <summary>
-/// iscollected prp
-/// </summary>
+
     public bool isCollected { get; set; }
 
 /// <summary>
-/// key constructor
+/// Returns a new instance of the Key class
+/// Constructor for initializing a key with a name and isCollected
 /// </summary>
 /// <param name="Name"></param>
 /// <param name="isCollected"></param>
+
     public Key(string Name = "Key", bool isCollected = false) {
 
         name = Name;
@@ -187,8 +168,9 @@ public class Key: Base, ICollectable {
 }
 
 /// <summary>
-/// roomobjects class
+/// RoomObjects class
 /// </summary>
+
 public class RoomObjects {
 
 /// <summary>

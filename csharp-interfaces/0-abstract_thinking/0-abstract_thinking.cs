@@ -1,16 +1,16 @@
 ﻿
 /// <summary>
-/// base class for inheritance
+/// Create an abstract class called Base
 /// </summary>
 public abstract class Base{
 
-/// <summary>
-/// holds the name
+///<summary>
+/// The name of the object
 /// </summary>
     public String? name;
 
 /// <summary>
-/// override to display custom properties
+/// Override the ToString method
 /// </summary>
 /// <returns></returns>
     public override String ToString(){
