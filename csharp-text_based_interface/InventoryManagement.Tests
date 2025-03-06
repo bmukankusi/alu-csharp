@@ -1,0 +1,109 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using NUnit.Framework;
+using InventoryLibrary;
+
+namespace InventoryTests
+{
+    [TestFixture]
+    public class JSONStorageTests
+    {
+        private JSONStorage storage;
+
+        [SetUp]
+        public void Setup()
+        {
+            storage = new JSONStorage();
+        }
+
+        [Test]
+        public void Test_New_Object_Addition()
+        {
+            Item item = new Item { name = "Test Item" };
+            storage.New(item);
+            Assert.IsTrue(storage.All().ContainsKey($"Item.{item.id}"));
+        }
+
+        [Test]
+        public void Test_Save_And_Load()
+        {
+            Item item = new Item { name = "Persistent Item" };
+            storage.New(item);
+            storage.Save();
+
+            JSONStorage newStorage = new JSONStorage();
+            newStorage.Load();
+            Assert.IsTrue(newStorage.All().ContainsKey($"Item.{item.id}"));
+        }
+    }
+
+    [TestFixture]
+    public class ItemTests
+    {
+        [Test]
+        public void Test_Item_Creation()
+        {
+            Item item = new Item { name = "Laptop", price = 999.99f, tags = new List<string> { "Electronics" } };
+            Assert.AreEqual("Laptop", item.name);
+            Assert.AreEqual(999.99f, item.price);
+            Assert.Contains("Electronics", item.tags);
+        }
+
+        [Test]
+        public void Test_Item_Default_Values()
+        {
+            Item item = new Item { name = "Phone" };
+            Assert.AreEqual("", item.description);
+            Assert.AreEqual(0.00f, item.price);
+            Assert.IsEmpty(item.tags);
+        }
+    }
+
+    [TestFixture]
+    public class UserTests
+    {
+        [Test]
+        public void Test_User_Creation()
+        {
+            User user = new User { name = "John Doe" };
+            Assert.AreEqual("John Doe", user.name);
+        }
+
+        [Test]
+        public void Test_User_Default_Id()
+        {
+            User user = new User { name = "Jane Doe" };
+            Assert.IsNotNull(user.id);
+            Assert.IsNotEmpty(user.id);
+        }
+    }
+
+    [TestFixture]
+    public class InventoryTests
+    {
+        [Test]
+        public void Test_Inventory_Creation()
+        {
+            Inventory inventory = new Inventory { user_id = "User123", item_id = "Item456", quantity = 5 };
+            Assert.AreEqual("User123", inventory.user_id);
+            Assert.AreEqual("Item456", inventory.item_id);
+            Assert.AreEqual(5, inventory.quantity);
+        }
+
+        [Test]
+        public void Test_Inventory_Default_Quantity()
+        {
+            Inventory inventory = new Inventory { user_id = "User789", item_id = "Item999" };
+            Assert.AreEqual(1, inventory.quantity);
+        }
+
+        [Test]
+        public void Test_Inventory_Negative_Quantity()
+        {
+            Inventory inventory = new Inventory { user_id = "User123", item_id = "Item456", quantity = -3 };
+            Assert.LessOrEqual(0, inventory.quantity, "Quantity should not be negative");
+        }
+    }
+}
