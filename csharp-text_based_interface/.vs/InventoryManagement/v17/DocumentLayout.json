@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\JSONStorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryLibrary\\JSONStorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|c:\\users\\hp1\\onedrive\\documents\\github\\alu-csharp\\csharp-text_based_interface\\inventorylibrary\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|solutionrelative:inventorylibrary\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\Inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryLibrary\\Inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|c:\\users\\hp1\\onedrive\\documents\\github\\alu-csharp\\csharp-text_based_interface\\inventorylibrary\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|solutionrelative:inventorylibrary\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryLibrary\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|c:\\users\\hp1\\onedrive\\documents\\github\\alu-csharp\\csharp-text_based_interface\\inventorylibrary\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|solutionrelative:inventorylibrary\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryLibrary\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|c:\\users\\hp1\\onedrive\\documents\\github\\alu-csharp\\csharp-text_based_interface\\inventorylibrary\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|solutionrelative:inventorylibrary\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\BaseClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryLibrary\\BaseClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|c:\\users\\hp1\\onedrive\\documents\\github\\alu-csharp\\csharp-text_based_interface\\inventorylibrary\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DF0518-41C1-405F-A7CE-15E874ABF8D4}|InventoryLibrary\\InventoryLibrary.csproj|solutionrelative:inventorylibrary\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JSONStorage.cs",
-              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\JSONStorage.cs",
+              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\JSONStorage.cs",
               "RelativeDocumentMoniker": "InventoryLibrary\\JSONStorage.cs",
-              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\JSONStorage.cs",
+              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\JSONStorage.cs",
               "RelativeToolTip": "InventoryLibrary\\JSONStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,53 +53,49 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\Inventory.cs",
               "RelativeDocumentMoniker": "InventoryLibrary\\Inventory.cs",
-              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\Inventory.cs",
+              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\Inventory.cs",
               "RelativeToolTip": "InventoryLibrary\\Inventory.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:11:06.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T10:11:06.87Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\User.cs",
+              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\User.cs",
               "RelativeDocumentMoniker": "InventoryLibrary\\User.cs",
-              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\User.cs",
+              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\User.cs",
               "RelativeToolTip": "InventoryLibrary\\User.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:10:32.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T10:10:32.31Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\Item.cs",
+              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\Item.cs",
               "RelativeDocumentMoniker": "InventoryLibrary\\Item.cs",
-              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\Item.cs",
+              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\Item.cs",
               "RelativeToolTip": "InventoryLibrary\\Item.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:09:42.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T10:09:42.685Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "BaseClass.cs",
-              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\BaseClass.cs",
+              "DocumentMoniker": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\BaseClass.cs",
               "RelativeDocumentMoniker": "InventoryLibrary\\BaseClass.cs",
-              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\BaseClass.cs",
+              "ToolTip": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\BaseClass.cs",
               "RelativeToolTip": "InventoryLibrary\\BaseClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:03:22.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T10:03:22.15Z"
             }
           ]
         }

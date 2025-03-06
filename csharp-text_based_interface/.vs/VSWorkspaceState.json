@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\InventoryLibrary",
-    "\\InventoryManagement.Tests",
+    "\\InventoryManagement",
     "\\InventoryManager"
   ],
-  "SelectedNode": "\\InventoryLibrary",
+  "SelectedNode": "\\InventoryManagement.sln",
   "PreviewInSolutionExplorer": false
 }

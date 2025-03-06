@@ -9,3 +9,15 @@ C:\Users\HP1\OneDrive\Documents\GitHub\InventoryManagement\InventoryLibrary\obj\
 C:\Users\HP1\OneDrive\Documents\GitHub\InventoryManagement\InventoryLibrary\obj\Debug\net7.0\refint\InventoryLibrary.dll
 C:\Users\HP1\OneDrive\Documents\GitHub\InventoryManagement\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.pdb
 C:\Users\HP1\OneDrive\Documents\GitHub\InventoryManagement\InventoryLibrary\obj\Debug\net7.0\ref\InventoryLibrary.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\bin\Debug\net7.0\InventoryLibrary.deps.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\bin\Debug\net7.0\InventoryLibrary.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\bin\Debug\net7.0\InventoryLibrary.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.AssemblyInfoInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.AssemblyInfo.cs
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.csproj.CoreCompileInputs.cache
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.sourcelink.json
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\refint\InventoryLibrary.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\InventoryLibrary.pdb
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryLibrary\obj\Debug\net7.0\ref\InventoryLibrary.dll

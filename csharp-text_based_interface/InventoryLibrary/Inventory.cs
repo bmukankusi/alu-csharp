@@ -1,43 +1,27 @@
 ﻿namespace InventoryLibrary
+
 {
-    /// <summary>
+     /// <summary>
     /// Represents an inventory entry.
     /// </summary>
+
     public class Inventory : BaseClass
-    {
+{
         /// <summary>
         /// ID of the user who owns the inventory entry.
         /// </summary>
-        public string UserId { get; set; }
 
-        /// <summary>
-        /// ID of the item in inventory.
-        /// </summary>
-        public string ItemId { get; set; }
+    public string user_id { get; set; }
+    public string item_id { get; set; }
+    public int quantity { get; set; } = 1;
 
-        /// <summary>
-        /// Quantity of the item, must be at least 0.
-        /// </summary>
-        private int quantity;
-        public int Quantity
-        {
-            get => quantity;
-            set
-            {
-                if (value < 0)
-                    throw new ArgumentException("Quantity cannot be less than 0.");
-                quantity = value;
-            }
-        }
+    public Inventory() { }
 
-        /// <summary>
-        /// Constructor initializes the inventory with required user and item IDs.
-        /// </summary>
-        public Inventory(string userId, string itemId, int quantity = 1)
-        {
-            UserId = userId;
-            ItemId = itemId;
-            Quantity = quantity;
-        }
+    public Inventory(string userId, string itemId, int quantity)
+    {
+        this.user_id = userId;
+        this.item_id = itemId;
+        this.quantity = quantity >= 0 ? quantity : 1;
     }
+}
 }

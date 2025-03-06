@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\InventoryLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\InventoryLibrary.csproj",
       "projectName": "InventoryLibrary",
-      "projectPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\InventoryLibrary.csproj",
+      "projectPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\InventoryLibrary.csproj",
       "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\InventoryManagement\\InventoryLibrary\\obj\\",
+      "outputPath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
