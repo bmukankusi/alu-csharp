@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "dZpdQTtBMcc=",
-  "success": false,
+  "dgSpecHash": "vKBdoF/lPHY=",
+  "success": true,
   "projectFilePath": "C:\\Users\\HP1\\OneDrive\\Documents\\GitHub\\alu-csharp\\csharp-text_based_interface\\InventoryManagement.Tests\\InventoryManagement.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP1\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
@@ -10,21 +10,11 @@
     "C:\\Users\\HP1\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.12.0\\microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\microsoft.testplatform.testhost\\17.12.0\\microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\HP1\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512",
+    "C:\\Users\\HP1\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\nunit.analyzers\\4.4.0\\nunit.analyzers.4.4.0.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\nunitlite\\4.3.2\\nunitlite.4.3.2.nupkg.sha512",
     "C:\\Users\\HP1\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: NUnit from 4.3.2 to 4.2.2. Reference the package directly from the project to select a different version. \r\n InventoryManagement.Tests -> NUnitLite 4.3.2 -> NUnit (= 4.3.2) \r\n InventoryManagement.Tests -> NUnit (>= 4.2.2)",
-      "libraryId": "NUnit",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

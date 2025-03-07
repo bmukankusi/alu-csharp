@@ -14,7 +14,7 @@ namespace InventoryManagement.Tests
             Item item = new Item { name = "Laptop", price = 999.99f, tags = new List<string> { "Electronics" } };
             Assert.That(item.name, Is.EqualTo("Laptop"));
             Assert.That(item.price, Is.EqualTo(999.99f));
-            Assert.That(item.tags.Contains("Speaker")); 
+            Assert.That(item.tags.Contains("Electronics")); 
         }
 
         [Test]
@@ -33,8 +33,8 @@ namespace InventoryManagement.Tests
         [Test]
         public void Test_User_Creation()
         {
-            User user = new User { name = "Sam Clover" };
-            Assert.That(user.name, Is.EqualTo("Sam Clover"));
+            User user = new User { name = "John Doe" };
+            Assert.That(user.name, Is.EqualTo("John Doe"));
         }
     }
 

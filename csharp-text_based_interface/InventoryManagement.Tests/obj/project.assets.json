@@ -303,21 +303,21 @@
           }
         }
       },
-      "NUnit/4.2.2": {
+      "NUnit/4.3.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/nunit.framework.dll": {
+          "lib/net8.0/nunit.framework.dll": {
             "related": ".legacy.xml;.xml"
           },
-          "lib/net6.0/nunit.framework.legacy.dll": {
+          "lib/net8.0/nunit.framework.legacy.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/nunit.framework.dll": {
+          "lib/net8.0/nunit.framework.dll": {
             "related": ".legacy.xml;.xml"
           },
-          "lib/net6.0/nunit.framework.legacy.dll": {
+          "lib/net8.0/nunit.framework.legacy.dll": {
             "related": ".xml"
           }
         },
@@ -725,10 +725,10 @@
         "packageIcon.png"
       ]
     },
-    "NUnit/4.2.2": {
-      "sha512": "mon0OPko28yZ/foVXrhiUvq1LReaGsBdziumyyYGxV/pOE4q92fuYeN+AF+gEU5pCjzykcdBt5l7xobTaiBjsg==",
+    "NUnit/4.3.2": {
+      "sha512": "puVXayXNmEu7MFQSUswGmUjOy3M3baprMbkLl5PAutpeDoGTr+jPv33qAYsqxywi2wJCq8l/O3EhHoLulPE1iQ==",
       "type": "package",
-      "path": "nunit/4.2.2",
+      "path": "nunit/4.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -746,7 +746,11 @@
         "lib/net6.0/nunit.framework.legacy.dll",
         "lib/net6.0/nunit.framework.legacy.xml",
         "lib/net6.0/nunit.framework.xml",
-        "nunit.4.2.2.nupkg.sha512",
+        "lib/net8.0/nunit.framework.dll",
+        "lib/net8.0/nunit.framework.legacy.dll",
+        "lib/net8.0/nunit.framework.legacy.xml",
+        "lib/net8.0/nunit.framework.xml",
+        "nunit.4.3.2.nupkg.sha512",
         "nunit.nuspec"
       ]
     },
@@ -846,7 +850,7 @@
     "net9.0": [
       "InventoryLibrary >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
-      "NUnit >= 4.2.2",
+      "NUnit >= 4.3.2",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 4.6.0",
       "NUnitLite >= 4.3.2",
@@ -913,7 +917,7 @@
           },
           "NUnit": {
             "target": "Package",
-            "version": "[4.2.2, )"
+            "version": "[4.3.2, )"
           },
           "NUnit.Analyzers": {
             "target": "Package",
@@ -951,16 +955,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: NUnit from 4.3.2 to 4.2.2. Reference the package directly from the project to select a different version. \r\n InventoryManagement.Tests -> NUnitLite 4.3.2 -> NUnit (= 4.3.2) \r\n InventoryManagement.Tests -> NUnit (>= 4.2.2)",
-      "libraryId": "NUnit",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

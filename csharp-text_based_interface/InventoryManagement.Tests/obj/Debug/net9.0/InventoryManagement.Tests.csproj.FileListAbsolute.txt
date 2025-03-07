@@ -102,3 +102,4 @@ C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\In
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryManagement.Tests\obj\Debug\net9.0\InventoryManagement.Tests.pdb
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryManagement.Tests\obj\Debug\net9.0\InventoryManagement.Tests.genruntimeconfig.cache
 C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryManagement.Tests\obj\Debug\net9.0\ref\InventoryManagement.Tests.dll
+C:\Users\HP1\OneDrive\Documents\GitHub\alu-csharp\csharp-text_based_interface\InventoryManagement.Tests\bin\Debug\net9.0\nunitlite.dll
