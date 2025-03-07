@@ -58,4 +58,16 @@ namespace InventoryManagement.Tests
             Assert.That(inventory.quantity, Is.EqualTo(1)); 
         }
     }
+
+    [TestFixture] 
+    public class FinalMessageTests
+    {
+        [Test]
+        public void Test_FinalMessage()
+        {
+            Console.WriteLine("Passed!");
+            Assert.Pass();
+        }
+    }
+
 }
