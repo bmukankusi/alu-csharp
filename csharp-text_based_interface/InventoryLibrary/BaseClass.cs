@@ -11,8 +11,16 @@ namespace InventoryLibrary
     public class BaseClass
     {
         public string id { get; set; }
+
+        /// <summary>
+        /// Date and time the object was created.
+        /// </summary>
         public DateTime date_created { get; set; }
         public DateTime date_updated { get; set; }
+
+        /// <summary>
+        /// Default constructor, initializes the object with default values.
+        /// </summary>
 
         public BaseClass()
         {

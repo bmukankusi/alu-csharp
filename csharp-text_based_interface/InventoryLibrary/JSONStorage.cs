@@ -19,7 +19,7 @@ namespace InventoryLibrary
         );
 
         /// <summary>
-        /// Retrieves all stored objects.
+        /// Retrieves all stored objects, indexed by their ID.
         /// </summary>
         public Dictionary<string, BaseClass> All() => objects;
 
@@ -34,6 +34,7 @@ namespace InventoryLibrary
 
         /// <summary>
         /// Saves objects to a JSON file.
+        /// Creates the file and directory if they do not exist.
         /// </summary>
         public void Save()
 {
@@ -53,7 +54,7 @@ namespace InventoryLibrary
 
 
         /// <summary>
-        /// Loads objects from a JSON file.
+        /// Loads objects from a JSON file, if it exists.
         /// </summary>
         public void Load()
         {
