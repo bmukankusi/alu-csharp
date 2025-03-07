@@ -334,6 +334,18 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
         }
       },
+      "NUnitLite/4.3.2": {
+        "type": "package",
+        "dependencies": {
+          "NUnit": "[4.3.2]"
+        },
+        "compile": {
+          "lib/net8.0/nunitlite.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/nunitlite.dll": {}
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
@@ -783,6 +795,26 @@
         "nunit_256.png"
       ]
     },
+    "NUnitLite/4.3.2": {
+      "sha512": "fPZm5HuS5zqiH/cIWxQfuwBiqRFFvtYkaAE11autStCTZS1X7D/JUEkvYTRnR4iVDB+EqHfIWRX9EzIUPTooSQ==",
+      "type": "package",
+      "path": "nunitlite/4.3.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICES.md",
+        "THIRD_PARTY_NOTICES.md",
+        "icon.png",
+        "lib/net462/nunitlite.dll",
+        "lib/net6.0/nunitlite.dll",
+        "lib/net8.0/nunitlite.dll",
+        "nunitlite.4.3.2.nupkg.sha512",
+        "nunitlite.nuspec",
+        "tools/net462/nunitlite-runner.exe"
+      ]
+    },
     "System.Reflection.Metadata/1.6.0": {
       "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
@@ -817,6 +849,7 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 4.6.0",
+      "NUnitLite >= 4.3.2",
       "coverlet.collector >= 6.0.2"
     ]
   },
@@ -890,6 +923,10 @@
             "target": "Package",
             "version": "[4.6.0, )"
           },
+          "NUnitLite": {
+            "target": "Package",
+            "version": "[4.3.2, )"
+          },
           "coverlet.collector": {
             "target": "Package",
             "version": "[6.0.2, )"
@@ -914,5 +951,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: NUnit from 4.3.2 to 4.2.2. Reference the package directly from the project to select a different version. \r\n InventoryManagement.Tests -> NUnitLite 4.3.2 -> NUnit (= 4.3.2) \r\n InventoryManagement.Tests -> NUnit (>= 4.2.2)",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

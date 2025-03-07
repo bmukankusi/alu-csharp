@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using InventoryLibrary;
 using System.Collections.Generic;
 
@@ -13,7 +14,7 @@ namespace InventoryManagement.Tests
             Item item = new Item { name = "Laptop", price = 999.99f, tags = new List<string> { "Electronics" } };
             Assert.That(item.name, Is.EqualTo("Laptop"));
             Assert.That(item.price, Is.EqualTo(999.99f));
-            Assert.That(item.tags.Contains("Electronics")); // Change this line
+            Assert.That(item.tags.Contains("Speaker")); 
         }
 
         [Test]
@@ -22,7 +23,7 @@ namespace InventoryManagement.Tests
             Item item = new Item { name = "Phone" };
             Assert.That(item.description, Is.EqualTo(""));
             Assert.That(item.price, Is.EqualTo(0.00f));
-            Assert.That(item.tags, Is.Empty); // Fix this line
+            Assert.That(item.tags, Is.Empty); 
         }
     }
 
@@ -32,8 +33,8 @@ namespace InventoryManagement.Tests
         [Test]
         public void Test_User_Creation()
         {
-            User user = new User { name = "John Doe" };
-            Assert.That(user.name, Is.EqualTo("John Doe"));
+            User user = new User { name = "Sam Clover" };
+            Assert.That(user.name, Is.EqualTo("Sam Clover"));
         }
     }
 
@@ -53,7 +54,8 @@ namespace InventoryManagement.Tests
         public void Test_Inventory_Default_Quantity()
         {
             Inventory inventory = new Inventory { user_id = "User789", item_id = "Item999" };
-            Assert.That(inventory.quantity, Is.EqualTo(1)); // Ensures default quantity is 1
+            // Expected quantity is 1
+            Assert.That(inventory.quantity, Is.EqualTo(1)); 
         }
     }
 }
